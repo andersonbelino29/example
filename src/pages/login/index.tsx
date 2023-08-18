@@ -96,7 +96,7 @@ const schema = yup.object().shape({
 
 const defaultValues = {
   password: 'admin',
-  email: 'admin@FarmaFácil.com'
+  email: 'admin@FarmaFacil.com'
 }
 
 interface FormData {
@@ -182,10 +182,10 @@ const LoginPage = () => {
             </Box>
             <Alert icon={false} sx={{ py: 3, mb: 6, ...bgColors.primaryLight, '& .MuiAlert-message': { p: 0 } }}>
               <Typography variant='body2' sx={{ mb: 2, color: 'primary.main' }}>
-                Admin: <strong>admin@FarmaFácil.com</strong> / Pass: <strong>admin</strong>
+                Admin: <strong>admin@FarmaFacil.com</strong> / Pass: <strong>admin</strong>
               </Typography>
               <Typography variant='body2' sx={{ color: 'primary.main' }}>
-                Client: <strong>client@FarmaFácil.com</strong> / Pass: <strong>client</strong>
+                Client: <strong>client@FarmaFacil.com</strong> / Pass: <strong>client</strong>
               </Typography>
             </Alert>
             <form noValidate autoComplete='off' onSubmit={handleSubmit(onSubmit)}>

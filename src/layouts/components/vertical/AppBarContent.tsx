@@ -9,7 +9,7 @@ import Icon from 'src/@core/components/icon'
 import { Settings } from 'src/@core/context/settingsContext'
 
 // ** Components
-import AutocompletePartnerClient from 'src/layouts/components/AutocompletePartner'
+//import AutocompletePartnerClient from 'src/layouts/components/AutocompletePartner'
 import AutocompleteClient from 'src/layouts/components/AutocompleteClient'
 import ModeToggler from 'src/@core/layouts/components/shared-components/ModeToggler'
 import UserDropdown from 'src/@core/layouts/components/shared-components/UserDropdown'
